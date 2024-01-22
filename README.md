@@ -42,9 +42,9 @@ In this lab session, M5StickC Plus kits are used to develop a BLE solution that 
 Please note that this lab session only covers point-to-point communication, and other modes like broadcast and mesh networks will not be covered. The lab guides you through establishing a BLE connection between two M5StickC Plus kits, designating one as the Server and the other as the Client. The Server advertises its presence and contains data that the Client can read. The Client scans for nearby devices, establishes a connection with the Server, and listens for incoming data. You can find the source code for both [Server]() and [Client]() are here.
 
 ### Steps:
-1. Compile the Server code and upload it to one device.
-2. Compile the Client code and upload it to another device.
-3. Modify the Server code to:
+- Compile the Server code and upload it to one device.
+- Compile the Client code and upload it to another device.
+- Modify the Server code to:
   - Allow another client to connect to the Server. Currently, it hangs after one connect and disconnect. [Hint: Look at Advertising]
   - Obtain data from actual sensors and be notified of new readings.
 
