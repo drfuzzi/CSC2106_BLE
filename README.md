@@ -60,7 +60,9 @@ By the end of this lab session, you will have learned how to:
 - Set up the M5StickC for BLE communication
 - Install the necessary libraries
 - Configure it for point-to-point communication
-- Test the M5StickC with BLE, providing a foundation for future projects such as indoor tracking, etc.
+- Lab involves setting up a Server and Client using two M5StickC Plus kits:
+  - Server advertises its presence and holds data for the Client.
+  - Client scans for the Server, connects, and listens for data.
 
 ## Lab Assignment
 
