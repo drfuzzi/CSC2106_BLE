@@ -44,7 +44,9 @@ Please note that this lab session only covers point-to-point communication, and 
 ### Steps:
 1. Compile the Server code and upload it to one device.
 2. Compile the Client code and upload it to another device.
-3. Modify the Server code to obtain data from actual sensors and be notified of new readings.
+3. Modify the Server code to:
+  - Allow another client to connect to the Server. Currently, it hangs after one connect and disconnect. [Hint: Look at Advertising]
+  - Obtain data from actual sensors and be notified of new readings.
 
 **Optional:**
 - Install BLE Scanner (Connect & Notify) (Android only) to verify if your Server has been configured correctly (https://play.google.com/store/apps/details?id=com.macdom.ble.blescanner&hl=en&gl=US&pli=1)
