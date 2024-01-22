@@ -46,6 +46,16 @@ Please note that this lab session only covers point-to-point communication, and 
 2. Compile the Client code and upload it to another device.
 3. Modify the Server code to obtain data from actual sensors and be notified of new readings.
 
+**Optional:**
+- Install BLE Scanner (Connect & Notify) (Android only) to verify if your Server has been configured correctly (https://play.google.com/store/apps/details?id=com.macdom.ble.blescanner&hl=en&gl=US&pli=1)
+- Select "CSC2106-BLE#01" in the list of detected BLE devices. You might want to change the bleServerName in your Server code so that it would be easier to find it in class.
+- Take note of the changes on your BLE-Server device when you press the "Connect" button on the app.
+
+![BLE_1](https://github.com/drfuzzi/CSC2106_BLE/assets/108112390/558fbe07-733a-47b8-8f5f-c51cc21b55a7)
+![BLE_2](https://github.com/drfuzzi/CSC2106_BLE/assets/108112390/faae550f-cba6-447d-98d8-44f86f55c1e8)
+
+Figure 3: BLE Scanner Screenshots
+
 By the end of this lab session, you will have learned how to:
 - Set up the M5StickC for BLE communication
 - Install the necessary libraries
