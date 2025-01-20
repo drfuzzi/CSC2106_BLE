@@ -6,7 +6,7 @@
 
 ## Equipment
 - Computer / Laptop
-- M5StickC Plus Kit
+- M5Stick-C Plus Kit
 
 ## Bluetooth Low Energy
 
@@ -18,7 +18,7 @@ BLE is independent of classic Bluetooth radio (also referred to as Bluetooth Bas
 
 Figure 1: Bluetooth Architecture
 
-In this lab session, M5StickC Plus kits are used to develop BLE solution that takes advantage of the various sensors included in the kit. Figure 2 shows the simple pinout for the M5StickC Plus kit that shows the pins to be used to access the various sensors.
+In this lab session, M5StickC Plus kits are used to develop BLE solution that takes advantage of the various sensors included in the kit. Figure 2 shows the simple pinout for the M5Stick-C Plus kit that shows the pins to be used to access the various sensors.
 
 ![image](https://github.com/drfuzzi/CSC2106_BLE/assets/108112390/786519ea-b43f-486e-8e69-bc78ec39ea22)
 ![image](https://github.com/drfuzzi/CSC2106_BLE/assets/108112390/378c4096-e11e-4843-a625-0c8f7e7bbb09)
@@ -27,13 +27,11 @@ Figure 2: M5StickC Plus - Structure block diagrams
 
 In addition, the lab only covers point-to-point communication, and other modes like broadcast and mesh networks will not be covered. The lab session guides how to make a BLE connection between two M5StickC Plus kits, where one is designated as Server and the other as Client. The Server advertises its presence, so it can be found by other devices and contains data that the Client can read. The Client scans the nearby devices, and when it finds the Server it is looking for, it establishes a connection and listens for incoming data. The source code for both Server and Client can be found on the xSITe, under Lab Codes.
 
-Step 1: Compile the Server code and upload it to one device.
+Step 1: Compile the [Server code](https://github.com/drfuzzi/CSC2106_BLE/blob/main/BLE_Server.ino) and upload it to a M5Stick-C device. This device will be referred to as **M5Stick-C A**.
+Step 2: Compile the [Client code](https://github.com/drfuzzi/CSC2106_BLE/blob/main/BLE_Client.ino) and upload it to **another** M5Stick-C device. This device will be referred to as **M5Stick-C B**.
+Step 3: Modify the [Server code](https://github.com/drfuzzi/CSC2106_BLE/blob/main/BLE_Server.ino) to obtain data from actual sensors (e.g. IMU) and be notified of new readings.
 
-Step 2: Compile the Client code and upload it to **another** device.
-
-Step 3: Modify the Server code to obtain data from actual sensors and be notified of new readings.
-
-At the end of this lab session, you have learned how to set up the M5StickC to connect it to another device via BLE, install the necessary libraries, and configure it for point-to-point communication. You have also tested the M5StickC with BLE, giving you a foundation for using it in future projects, i.e. indoor tracking, etc.
+At the end of this lab session, you have learned how to set up the M5Stick-C to connect it to another device via BLE, install the necessary libraries, and configure it for point-to-point communication. You have also tested the M5StickC with BLE, giving you a foundation for using it in future projects, i.e. indoor tracking, etc.
 
 ## Lab Exercise
 
