@@ -47,7 +47,7 @@ Step 3: Modify the [Server code](BLE_Server.ino) to:
 
 
 **Optional:**
-- Install [BLE Scanner (Connect & Notify)] (https://play.google.com/store/apps/details?id=com.macdom.ble.blescanner&hl=en&gl=US&pli=1) (Android only). This is to verify if your Server has been configured correctly.
+- Install [BLE Scanner (Connect & Notify)](https://play.google.com/store/apps/details?id=com.macdom.ble.blescanner&hl=en&gl=US&pli=1) (Android only). This is to verify if your Server has been configured correctly.
 - Select "CSC2106-BLE#01" in the list of detected BLE devices. You might want to change the bleServerName in your Server code so that it would be easier to find it in class.
 - Take note of the changes on your BLE-Server device when you press the "Connect" button on the app.
 
