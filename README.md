@@ -68,9 +68,12 @@ By the end of this lab session, you will have learned how to:
 
 Extend your lab to incorporate the following functionality:
 
-1. Press the (Server, **M5Stick A**) Home button to change the (Server, **M5Stick A**) LED state and notify status updates (temperature, voltage) to the BLE Client.
-2. Press the (Client, **M5Stick B**) Home button to read characteristics (led) from the BLE Server & display. 
-3. Press the (Client, **M5Stick B**) button B to write characteristics (led) to the BLE server, changing the LED state on the Server.
+1. Press the (Server, **M5Stick A**) Button A to change the (Server, **M5Stick A**) LED state and notify status updates (temperature, voltage) to the BLE Client.
+2. Press the (Client, **M5Stick B**) Button A to read characteristics (led) from the BLE Server & display. 
+3. Press the (Client, **M5Stick B**) Button B to write characteristics (led) to the BLE server, changing the LED state on the Server.
+
+![image](https://github.com/user-attachments/assets/079f192d-fd26-409b-8eea-8f3653188e64)
+
 
 ## Reference
 
