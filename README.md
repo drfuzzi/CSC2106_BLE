@@ -38,7 +38,9 @@ Please note that this lab session only covers point-to-point communication, and 
 ### Steps:
 
 Step 1: Compile the [Server code](BLE_Server.ino) and upload it to a M5Stick-C. This device will be referred to as **M5StickC A**.
+
 Step 2: Compile the [Client code](BLE_Client.ino) and upload it to **another** M5Stick-C. This device will be referred to as **M5StickC B**.
+
 Step 3: Modify the [Server code](BLE_Server.ino) to:
   - Allow another client to connect to the Server. Currently, it hangs after one connect and disconnect. [Hint: Look at Advertising]
   - Obtain data from actual sensors (e.g. IMU) and be notified of new readings.
