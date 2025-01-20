@@ -72,6 +72,12 @@ Extend your lab to incorporate the following functionality:
 3. Press the **Client Button A** to read characteristics (led) from the **Server** & display. 
 4. Press the **Client Button B** to write characteristics (led) to the **Server**, changing the LED state on the **Server**.
 
+### Hints
+
+- You'll need to use BLE characteristics to represent the LED state, temperature, and voltage. Remember to update these characteristics whenever Button A is pressed on the Server.
+- Use the M5.Lcd.print() function to display the received LED state on the Client's screen; helps with debugging.
+- Ensure that the Client correctly identifies the "LED State" characteristic on the Server to control the LED.
+
 ![image](https://github.com/user-attachments/assets/079f192d-fd26-409b-8eea-8f3653188e64)
 
 
