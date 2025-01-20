@@ -25,19 +25,21 @@ In this lab session, M5StickC Plus kits are used to develop BLE solution that ta
 
 Figure 2: M5StickC Plus - Structure block diagrams
 
-In addition, the lab only covers point-to-point communication, and other modes like broadcast and mesh networks will not be covered. The lab session guides how to make a BLE connection between two M5StickC Plus kits, where one is designated as Server and the other as Client. The Server advertises its presence, so it can be found by other devices and contains data that the Client can read. The Client scans the nearby devices, and when it finds the Server it is looking for, it establishes a connection and listens for incoming data. The source code for both Server and Client can be found on the xSITe, under Lab Codes.
+In addition, the lab only covers point-to-point communication, and other modes like broadcast and mesh networks will not be covered. The lab session guides how to make a BLE connection between two M5StickC Plus kits, where one is designated as Server and the other as Client. The Server advertises its presence, so it can be found by other devices and contains data that the Client can read. The Client scans the nearby devices, and when it finds the Server it is looking for, it establishes a connection and listens for incoming data. 
 
-Step 1: Compile the [Server code](https://github.com/drfuzzi/CSC2106_BLE/blob/main/BLE_Server.ino) and upload it to a M5Stick-C device. This device will be referred to as **M5Stick-C A**.
-Step 2: Compile the [Client code](https://github.com/drfuzzi/CSC2106_BLE/blob/main/BLE_Client.ino) and upload it to **another** M5Stick-C device. This device will be referred to as **M5Stick-C B**.
-Step 3: Modify the [Server code](https://github.com/drfuzzi/CSC2106_BLE/blob/main/BLE_Server.ino) to obtain data from actual sensors (e.g. IMU) and be notified of new readings.
+Step 1: Compile the [Server code](https://github.com/drfuzzi/CSC2106_BLE/blob/main/BLE_Server.ino) and upload it to a M5Stick-C. This device will be referred to as **M5StickC A**.
 
-At the end of this lab session, you have learned how to set up the M5Stick-C to connect it to another device via BLE, install the necessary libraries, and configure it for point-to-point communication. You have also tested the M5StickC with BLE, giving you a foundation for using it in future projects, i.e. indoor tracking, etc.
+Step 2: Compile the [Client code](https://github.com/drfuzzi/CSC2106_BLE/blob/main/BLE_Client.ino) and upload it to **another** M5Stick-C. This device will be referred to as **M5StickC B**.
+
+Step 3: Modify the [Server code](BLE_Server.ino) to obtain data from actual sensors (e.g. IMU) and be notified of new readings.
+
+At the end of this lab session, you have learned how to set up the M5StickC to connect it to another device via BLE, install the necessary libraries, and configure it for point-to-point communication. You have also tested the M5StickC with BLE, giving you a foundation for using it in future projects, i.e. indoor tracking, etc.
 
 ## Lab Exercise
 
 In this lab session, M5StickC Plus kits are used to develop a BLE solution that utilizes various sensors included in the kit. The pinout diagram in Figure 2 shows the pins used to access these sensors.
 
-Please note that this lab session only covers point-to-point communication, and other modes like broadcast and mesh networks will not be covered. The lab guides you through establishing a BLE connection between two M5StickC Plus kits, designating one as the Server and the other as the Client. The Server advertises its presence and contains data that the Client can read. The Client scans for nearby devices, establishes a connection with the Server, and listens for incoming data. You can find the source code for both [Server]() and [Client]() are here.
+Please note that this lab session only covers point-to-point communication, and other modes like broadcast and mesh networks will not be covered. The lab guides you through establishing a BLE connection between two M5StickC Plus kits, designating one as the Server and the other as the Client. The Server advertises its presence and contains data that the Client can read. The Client scans for nearby devices, establishes a connection with the Server, and listens for incoming data. You can find the source code for both [Server](BLE_Server.ino) and [Client](BLE_Client.ino) are here.
 
 ### Steps:
 - Compile the Server code and upload it to one device.
