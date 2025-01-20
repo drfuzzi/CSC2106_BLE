@@ -45,8 +45,9 @@ Step 3: Modify the [Server code](BLE_Server.ino) to:
   - Allow another client to connect to the Server. Currently, it hangs after one connect and disconnect. [Hint: Look at Advertising]
   - Obtain data from actual sensors (e.g. IMU) and be notified of new readings.
 
+
 **Optional:**
-- Install BLE Scanner (Connect & Notify) (Android only) to verify if your Server has been configured correctly (https://play.google.com/store/apps/details?id=com.macdom.ble.blescanner&hl=en&gl=US&pli=1)
+- Install [BLE Scanner (Connect & Notify)] (https://play.google.com/store/apps/details?id=com.macdom.ble.blescanner&hl=en&gl=US&pli=1) (Android only). This is to verify if your Server has been configured correctly.
 - Select "CSC2106-BLE#01" in the list of detected BLE devices. You might want to change the bleServerName in your Server code so that it would be easier to find it in class.
 - Take note of the changes on your BLE-Server device when you press the "Connect" button on the app.
 
